@@ -1,0 +1,16 @@
+.about-movie {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    
+        &__title {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        }
+    
+        &__description {
+        font-size: 1.2rem;
+        text-align: center;
+        }
+    }

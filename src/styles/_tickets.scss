@@ -1,0 +1,43 @@
+@use 'variaveis';
+
+    .tickets {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    
+        &__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        & > * {
+            margin-bottom: 1rem;
+        }
+    
+        & > label {
+            display: block;
+            text-align: center;
+        }
+    
+        & > input {
+            width: 100%;
+            padding: 0.5rem;
+            border: none;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        }
+
+        &__button {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            border: 2px solid red;
+            border-radius: 5px;
+            background-color: black;
+            text-decoration: none;
+            margin-top: 1rem;
+            color: variaveis.$corBotão ;
+        }
+}
